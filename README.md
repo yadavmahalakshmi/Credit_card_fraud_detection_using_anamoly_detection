@@ -1,6 +1,6 @@
 ## Credit Card Fraud Detection Using Anamoly Detection
 
-# Project overview
+# Project Overview
 The Credit Card Fraud Detection project utilizes advanced anomaly detection techniques, including Isolation Forest and Autoencoders, to identify fraudulent transactions from the Kaggle Credit Card Fraud dataset. This project is built around analyzing transaction patterns and identifying anomalies indicative of fraudulent activity. The model is trained on all 30 features of the dataset and is designed to classify transactions as either fraudulent or legitimate. The project includes a Flask-based web application that allows users to input transaction data, receive fraud predictions, and visualize fraud detection performance using dynamically generated AUC-ROC curves and interactive dashboards.
 
 # Features
