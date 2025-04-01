@@ -1,1 +1,19 @@
-# Credit_card_fraud_detection_using_anamoly_detection
+## Credit Card Fraud Detection Using Anamoly Detection
+
+# Project overview
+The Credit Card Fraud Detection project utilizes advanced anomaly detection techniques, including Isolation Forest and Autoencoders, to identify fraudulent transactions from the Kaggle Credit Card Fraud dataset. This project is built around analyzing transaction patterns and identifying anomalies indicative of fraudulent activity. The model is trained on all 30 features of the dataset and is designed to classify transactions as either fraudulent or legitimate. The project includes a Flask-based web application that allows users to input transaction data, receive fraud predictions, and visualize fraud detection performance using dynamically generated AUC-ROC curves and interactive dashboards.
+
+# Features
+This project offers several key features, including an interactive web application, real-time fraud detection, and advanced anomaly detection techniques. Users can enter transaction details, and the model will predict whether the transaction is fraudulent or not. The system provides data visualizations such as transaction distribution graphs and fraud heatmaps. Additionally, the web application includes an intuitive interface with a transaction input form, fraud probability scoring, and historical fraud detection logs. The fraud detection results are presented using graphs and charts for better interpretability.
+
+# Key Technologies
+The project employs a range of modern technologies for data handling, machine learning, and web development. Python is used for model development and data processing, with Pandas and NumPy handling data manipulation. Machine learning models are implemented using Scikit-learn and TensorFlow, focusing on Isolation Forest and Autoencoders for anomaly detection. Matplotlib and Seaborn are used for visualization, while Flask serves as the backend framework for the web application. The frontend is built using HTML, CSS, and JavaScript, with Bootstrap integrated to enhance UI/UX design and responsiveness.
+
+# Usage
+Users can interact with the fraud detection system through a simple and intuitive workflow. First, they enter transaction details into the web application, including randomly selected feature values (e.g., V1 to V28) and the transaction amount. The model then processes the input and predicts whether the transaction is fraudulent. The results are displayed in an easy-to-understand format, including a fraud probability score and a visualization of fraud patterns. Additionally, users can explore transaction distributions and fraud detection performance through dynamically generated graphs.
+
+# Anomaly Detection Techniques Used
+This project leverages state-of-the-art anomaly detection techniques to identify fraudulent transactions. The Isolation Forest algorithm isolates anomalies by randomly partitioning the feature space, making it highly effective in detecting fraudulent patterns. The Autoencoder model, a neural network-based approach, reconstructs transaction data and identifies deviations from normal behavior as potential fraud. These techniques enhance fraud detection accuracy while reducing false positives.
+
+# Future Enhancements
+Several enhancements are planned to improve the project further. Future updates will include additional anomaly detection methods, such as One-Class SVM and Local Outlier Factor, to improve detection accuracy by offering a broader range of detection approaches. The web application will be enhanced with user authentication and secure transaction logging for better fraud tracking. Additionally, an interactive dashboard will be developed to allow users to analyze fraud trends over time. The project may also integrate real-time fraud detection capabilities using streaming data sources for enhanced security in financial transactions.
